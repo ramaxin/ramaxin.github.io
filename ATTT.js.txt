@@ -1,0 +1,87 @@
+var data = [
+["Virus là","là chương trình phần mềm độc hại được dùng để phục vụ những mục đích không tốt."],
+["Khi cố gắng đăng nhập phần mềm quá nhiều lần, user bị tạm khóa không đăng nhập được tiếp. Tại sao","Chức năng phần mềm giúp phòng chống kẻ tấn công dò tìm mật khẩu người dùng"],
+["Thư rác (spam email) là thư điện tử được gửi đến người nhận mà người nhận đó không mong muốn hoặc không có trách nhiệm phải tiếp nhận. Theo bạn điều đó đúng hay sai?","Đúng"],
+["Phần mềm nào không phải là phần mềm chống virus?","IDA Pro Tool"],
+["Hệ thống kiểm soát thẻ ra vào toà nhà:- Có 01 tài khoản truy cập hệ thống.- Có 03 quản lý được phép sử dụng 01 tài khoản trên để truy cập hệ thống.Việc quản trị như vậy nhằm tránh các sự cố như quên mật khẩu..., hạn chế quyền truy cập, đảm bảo an toàn thông tin.Theo anh/chị, điều đó đúng hay sai?","Sai"],
+["Những chú ý cần thiết khi truy cập wifi công cộng là:","Cả 3 đáp án đều đúng"],
+["Trong các phương án dưới đây, đâu là ví dụ về mật khẩu mạnh?","Sử dụng một câu nói mà bạn tâm đắc. Bài hát “My heart will go on” phát hành năm 1997: Mật khẩu là Mhwg@97"],
+["Nếu thường xuyên duyệt web sử dụng Mozilla Firefox, bạn nên sử dụng chức năng Master password đi kèm. Chức năng của Master password là gì?","Mỗi khi sử dụng trình duyệt Firefox để truy cập một trang web có sử dụng mật khẩu tới tài khoản, bạn sẽ được yêu cầu nhập Master password, giúp ngăn chặn việcngười dùng khác hay tin tặc truy cập vào các trang web bạn đã lưu thông tin đăng nhập trước đó"],
+["Việc sử dụng máy tính công cộng tiềm ẩn rất nhiều nguy cơ, ví dụ nguy cơ bị hack tài khoản hay lộ thông tin cá nhân.Theo bạn điều đó đúng hay sai?","Đúng"],
+["Biện pháp nào dưới đây làm giảm thiệt hại khi phát hiện bị tấn công mã hóa dữ liệu?","Ngắt kết nối mạng, tắt nguồn máy tính"],
+["Chỉ nên cài đặt các chương trình phần mềm được download (tải về) từ:","Từ các trang chủ, website chính thống của chương trình phần mềm đó"],
+["Nên thay đổi tên mạng mặc định (SSID) mà nhà sản xuất đã thiết lập sẵn cho các modem wifi. Điều đó đúng hay sai?","Đúng"],
+["WannaCry là tên của:","Một loại mã độc tống tiền"],
+["Khi dùng máy tính công cộng nên thực hiện các công việc nào dưới đây?",""],
+["Người dùng không nên tải dữ liệu, không cài đặt phần mềm không rõ nguồn gốc. Điều đó đúng hay sai?","Đúng"],
+["Địa chỉ của hệ thống phân tích mã độc tự động mà Tập đoàn đã xây dựng là:","https://malware.vnpt.vn/"],
+["Có ý kiến cho rằng các thiết bị thông minh như đồng hồ smartwatch, smartphone, camera có kết nối Intenet… đều có thể bị tấn công. Bạn cho rằng đúng hay sai?","Đúng"],
+["Theo quy định hiện hành của VNPT về tài khoản/mật khẩu, mật khẩu của các máy chủ, máy trạm phải được thiết lập đủ độ mạnh, bao gồm?","Tối thiểu 8 ký tự, có chữ in thường, in hoa, chữ số và ký tự đặc biệt"],
+["“Đây là tổng đài VNPT, chúng tôi xin thông báo quý khách hàng đang còn nợ số tiền là 8,89 triệu đồng, nếu quý khách không chuyển tiền vào tài khoản thì chúng tôi khóa máy sau 2 giờ. Vui lòng bấm số 9 để nghe thông báo, bấm số 0 để gặp tổng đài viên”. Đoạn ghi âm trên là của:","Mánh khóe lừa đảo báo nợ cước qua điện thoại cố định của tin tặc nhắm vào đối tượng người đứng tuổi, ít kiến thức."],
+["Tác hại của DoS là gì?","Khiến đường truyền bị quá tải, máy chủ mất khả năng hoạt động"],
+["Tác hại của mã độc","Cả 3 đáp án đều đúng"],
+["Trong các loại hình mật khẩu dưới đây, loại mật khẩu nào là kém an toàn nhất?","Mật khẩu dùng 4 chữ số giống nhau"],
+["Phương pháp để đóng, mở port trên hệ điều hành Windows là:","Dùng Windows Firewall"],
+["Trojan là phương thức tấn công kiểu","Điều khiển máy tính nạn nhân từ xa thông qua phần mềm cài sẵn trong máy nạn nhân"],
+["Cơ chế bảo mật mạng không dây nào dưới đây là ít an toàn nhất?","Mã hóa WEP 40 bit"],
+["Có thể thiết lập firewall trong hệ điều hành Windows bằng cách?",""],
+["Tấn công Phishing là kiểu tấn công","Lừa người dùng truy cập vào website giả mạo của hacker"],
+["Tập đoàn đã ban hành quy định về An toàn bảo mật hệ thống công nghệ thông tin trong hoạt động của VNPT số 89/QĐ-VNPT-IT&VAS vào năm 2018. Điều đó đúng hay sai?","Đúng"],
+["Trong quá trình thiết lập dịch vụ Internet cho khách hàng, nhân viên kỹ thuật cần thực hiện một số nghiệp vụ. Chọn các phương án đúng.",""],
+["Các nguy cơ bị đánh cắp mật khẩu thường vì:","Cả 3 đáp án đều đúng"],
+["Adobe flash player là tên của chương trình phần mềm chống mã độc tiên tiến hiện nay. Đúng hay sai?","Sai"],
+["Phương án nào dưới đây giúp tăng cường an toàn bảo mật cho điện thoại di động?","Tất cả phương án đều đúng"],
+["Trong các tập tin dưới đây, tập tin nào có khả năng chứa virus nhất?","phongcanh.png.msi"],
+["Dấu hiệu nhận biết máy tính bị mã độc là:",""],
+["Người dùng cần cẩn trọng khi tải và sử dụng ứng dụng trên kho ứng dụng (CH Play, AppStore) bởi vì:","Tin tặc có thể tạo các ứng dụng có thiết kế giống hệt với ứng dụng đang thịnh hành, cài đặt mã độc vào đó và dụ dỗ người dùng sử dụng ứng dụng"],
+["Các nguy cơ bị đánh cắp mật khẩu thường vì:","Cả 3 đáp án đều đúng"],
+["Để đảm bảo an toàn cho dữ liệu trong USB, đáp án nào dưới đây là sai?","Tránh để USB lưu trữ dữ liệu >80% dung lượng"],
+["Đáp án nào không phải mạng xã hội trên Internet?","Vnpt-ca"],
+["Khuyến nghị SAI khi sử dụng email","Kiểm tra nội dung chi tiết (kích đúp để xem chi tiết) của các đường liên kết hay mở các file gửi kèm trong email."],
+["Phải thực hiện thay đổi mật khẩu ngay khi:",""],
+["Các khuyến nghị khi sử dụng mạng công cộng là:","Cả 3 đáp án đều đúng"],
+["Từ chối dịch vụ (Denial Of Service -DoS) là:","Một phương thức tấn công"],
+["Bạn nhận được một email thông báo trúng thưởng 5,000$ của ngân hàng kèm theo đường link dẫn tới website ngân hàng để xác nhận thông tin. Khi copy link dán vào trình duyệt, bạn thấy nội dung website (tienphongbank.nganhang.com) như hình dưới. Bạn cho rằng điều này:","Tên website ngân hàng không đúng lắm. Có thể là lừa đảo. Bạn bỏ qua/xóa bỏ email."],
+["Đường dẫn (URL) để thay đổi mật khẩu Email VNPT","https://mail.vnpt.vn/ecp"],
+["Khi sử dụng mạng xã hội, cần lưu ý những điều sau:","Cả 3 đáp án đều đúng"],
+["Bạn sẽ làm gì nếu sếp bạn yêu cầu gửi mật khẩu tài khoản email của bạn cho anh/cô ấy với mục đích công việc?","Tuyệt đối không cung cấp thông tin cá nhân cho người khác"],
+["Đối với mạng xã hội facebook, trong các đáp án bên dưới, đâu là cách không đảm bảo an toàn bảo mật cho người dùng?","Không chia sẻ thông tin cá nhân, thông tin nhạy cảm trên facebook"],
+["Các trường hợp có thể xảy ra khi bỗng dưng người dùng phải kết nối lại wifi đang kết nối, hoặc khi thấy có 2 tên wifi bạn đang sử dụng giống nhau.","cần nghĩ ngay đến có thể bạn là nạn nhân của tấn công giả mạo Wi-Fi (SSID Spoofing)."],
+["Bật tính năng UAC (User Account Control) trên hệ điều hành Window giúp người dùng ngăn chặn các phần mềm độc hại tự động thực hiện các thay đổi trái phép trong hệ thống. Điều đó đúng hay sai?","Đúng"],
+["Khi truy cập và sử dụng Internet, người dùng nên chú ý:","Cả 3 đáp án đều đúng"],
+["Trong các tập tin dưới đây, tập tin nào có khả năng chứa virus nhất?","picture.gif.exe"],
+["Khi cài đặt phần mềm nên tải từ đâu?","Từ trang web của nhà cung cấp phần mềm"],
+["Khuyến nghị nào dưới đây là SAI khi sử dụng điện thoại thông minh?","Cài đặt ứng dụng từ các nguồn appstore, google play, website, diễn đàn chia sẻ,…"],
+["Khi cần tải các ứng dụng trên hệ điều hành iOS, người dùng nên tải tại:","Kho ứng dụng App Store"],
+["Khi cài đặt các chương trình phần mềm từ Internet, người dùng thường tìm tải về các tệp tin crack (bẻ khóa) phần mềm và cài đặt các tệp tin đó. Hành vi đó khiến người dùng có nguy cơ bị tin tặc tấn công. Điều đó đúng hay sai?","Đúng"],
+["Phương án nào không phải là dấu hiệu nhận biết máy tính bị nhiễm mã độc?","Cảnh báo cáp mạng bị đứt khi kết nối Internet"],
+["Con chuột máy tính bỗng dưng di chuyển trên màn hình và click vào vị trí mà bạn không chủ đích. Bạn sẽ làm gì?","Ngắt kết nối mạng và gọi bộ phận IT để yêu cầu hỗ trợ"],
+["Thư rác (spam email) là thư điện tử được gửi đến người nhận mà người nhận đó không mong muốn hoặc không có trách nhiệm phải tiếp nhận. Theo bạn điều đó đúng hay sai?","Đúng"],
+["Để tăng bảo mật thông tin cho tài khoản facebook, bạn có thể thiết lập chế độ chỉ mình bạn mới xem được thông tin của bạn hoặc thông tin bạn đang theo dõi trong phần “Bạn bè \ Chỉnh sửa quyền riêng tư”.Theo bạn điều đó đúng hay sai?","Đúng"]
+]
+var jq = document.createElement('script');
+jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js";
+document.getElementsByTagName('head')[0].appendChild(jq);
+jQuery.noConflict();
+var cau = jQuery('.formulation');
+
+cau.each(function( index, value ) {
+  var oCauhoi = jQuery(value).children(".qtext");
+  jQuery.each(data,function( indexDT, valueDT ){
+	  var cauhoi = (oCauhoi.text().replace(/\n|\r/g, ""));
+	  if(cauhoi == valueDT[0]){
+		  var Bloctraloi =  jQuery(value).children(".ablock");
+		  var traloi = jQuery(Bloctraloi).children(".answer");
+		  traloi.each(function(subindex, subvalue) {
+			  var oDapan = jQuery(subvalue).children("div");
+			  oDapan.each(function(DAindex, DAvalue) {
+				  var dapan = jQuery(DAvalue).children("label").text().replace(/\n|\r/g, "");
+				  console.log(dapan==valueDT[1]);
+				  if(dapan==valueDT[1]){
+					jQuery(DAvalue).children("input").prop( "checked", true);
+				  }
+			  });
+		  })
+	  }
+  });
+});
